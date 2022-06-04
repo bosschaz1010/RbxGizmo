@@ -1,15 +1,15 @@
 # RbxGizmo
 
 # Accepted values
-- Vector3
-- CFrame
-- Ray
-- {CFrame, Vector2} Plane
-- {CFrame, Vector3} Box
-- {Vector3, number} Sphere
-- {Vector3, string} Text
+- Vector3 | Point
+- CFrame | CFrame
+- Ray | Line
+- {CFrame, Vector2} | Plane
+- {CFrame, Vector3} | Box
+- {Vector3, number} | Sphere
+- {Vector3, string} | Text
 
-# Notes:
+# Notes
 You cannot give a new value to an already created Gizmo, this will throw an error
 You cannot edit children of a visualised Gizmo (this does not apply to Text which is edited instead of the billboard it is parented to.)
 
