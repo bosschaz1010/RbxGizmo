@@ -1,0 +1,8 @@
+[package]
+name = "bosschaz1010/gizmo"
+description = "Shape visualiser for Roblox"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
