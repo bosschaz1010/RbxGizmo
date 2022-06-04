@@ -22,7 +22,7 @@ while true do
       Color3 = Color3.new(1, 0, 0)
   })
 
-  task.wait(2)
+  task.wait()
 end
 
 Gizmo:disable("GizmoID")
